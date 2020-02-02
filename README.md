@@ -2,12 +2,10 @@
 A perl script to convert a file tree into a JSON format
 
 ### Dependencies
-- JSON
-
-Install using `cpan install JSON`
+- JSON (install using `cpan install JSON`)
 
 ### Usage
-`./jsonifyFileTree [DIRECTORY]`
+`./jsonifyFileTree.pl [DIRECTORY]`
 
 **Example:**
 ```
