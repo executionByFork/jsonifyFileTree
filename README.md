@@ -19,4 +19,4 @@ $ ./jsonifyFileTree.pl myfolder/
    "emptyfolder" : {}
 }
 ```
-***Files are represented a null value while an empty folder has a value of an empty dictionary*
+***Files are represented with a null value while an empty folder has a value of an empty dictionary*
