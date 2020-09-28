@@ -20,4 +20,4 @@ $ ./jsonifyFileTree.pl myfolder/
    "emptyfolder" : {}
 }
 ```
-***Files are represented with a hash as a value or null if `--hash` is omitted, while an empty folder has a value of an empty dictionary*
+***Files are represented with a hash as a value (or empty string if `--hash` is omitted), while an empty folder has a value of an empty dictionary*
