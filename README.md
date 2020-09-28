@@ -12,10 +12,10 @@ A perl script to convert a file tree into a JSON format
 ```
 $ ./jsonifyFileTree.pl myfolder/
 {
-   "file.txt" : null,
+   "file.txt" : "",
    "subdir" : {
-      "anotherfile.txt" : null,
-      "helloworld.csv" : null
+      "anotherfile.txt" : "",
+      "helloworld.csv" : ""
    },
    "emptyfolder" : {}
 }
