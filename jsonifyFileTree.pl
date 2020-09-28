@@ -43,7 +43,7 @@ sub parse_dir {
         $hash{$dir} = $res;
     }
     foreach my $file (@files) {
-        $h = undef;
+        $h = "";
         if ($hash) {
             $h = file_md5_hex("$path/$file");
         }
